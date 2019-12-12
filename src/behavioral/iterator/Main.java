@@ -9,5 +9,10 @@ public class Main {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        
+        Iterator iteratorBackwards = emails.getBackwardsIterator();
+        while (iteratorBackwards.hasNext()){
+            System.out.println(iteratorBackwards.next());
+        }
     }
 }
