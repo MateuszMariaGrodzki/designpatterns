@@ -9,8 +9,11 @@ public class Emails {
             "eee@gmail.com"
     };
 
-    private class EmailsIterator implements Iterator {
+    public Iterator getIterator(){
+        return new EmailsIterator();
+    }
 
+    private class EmailsIterator implements Iterator {
         int index =0;
 
         @Override
