@@ -14,6 +14,7 @@ public class Student {
     }
 
     public void introduceStudent(){
+        System.out.println("Imie studenta: " + name);
         school.levelOfEducation();
         subject.introduce();
     }
