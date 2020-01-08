@@ -1,7 +1,5 @@
 package structural.adapter;
 
-import java.sql.SQLOutput;
-
 public class GameLevelv2 implements Gamev2 {
     private String levelName;
     private int levelNumber;
