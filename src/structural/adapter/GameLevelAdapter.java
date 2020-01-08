@@ -6,6 +6,7 @@ public class GameLevelAdapter implements Game {
 
     public GameLevelAdapter(GameLevelv2 gameLevelv2, String playerName){
         this.gameLevelv2 = gameLevelv2;
+        this.playerName = playerName;
     }
 
     @Override

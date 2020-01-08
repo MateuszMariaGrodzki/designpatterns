@@ -11,12 +11,12 @@ public class GameLevelv2 implements Gamev2 {
 
     @Override
     public void start(String playerName) {
-        System.out.println("Gracz " + playerName + "rozpoczyna poziom " + levelName);
+        System.out.println("Gracz " + playerName + " rozpoczyna poziom " + levelName);
     }
 
     @Override
     public void win(String playerName) {
-        System.out.println("Gracz " + playerName + "przechodzi pomyslnie poziom " + levelNumber);
+        System.out.println("Gracz " + playerName + " przechodzi pomyslnie poziom " + levelNumber);
     }
 
     @Override
